@@ -1,0 +1,48 @@
+/* -------------------How we do--------------------- */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1920px;
+    margin: 0 auto;
+}
+  
+.Description {
+    text-align: center;
+}
+
+.flex-container > div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  
+.flex-container > div img {
+    width: 50px;
+    margin: 20px;
+}
+  
+
+.flex-container .box1 {
+    width: 400px;
+    max-width: 350px;
+    margin: 40px;
+    padding: 30px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.box1 p {
+    width: 260px;
+}
+
+.flex-container .box1 .lilicon {
+    width: 50px;
+    align-items: center;
+}
+  
+.flex-container .box1 .blackicon {
+    width: 60px;
+    align-items: center;
+}

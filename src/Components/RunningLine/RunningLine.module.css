@@ -1,0 +1,37 @@
+/*------------------Running Line------------------*/
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 20px 0;
+    filter: grayscale(100%);
+}
+
+.logos::before {
+    position: absolute;
+}
+
+.logos:hover .logos_slide {
+    animation-play-state: paused;
+}
+
+
+.logos_slide {
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+
+}
+
+
+.logos_slide img{
+    height: 50px;
+    margin: 0 40px;
+
+}

@@ -1,0 +1,78 @@
+/*------------------Post/Find a Job------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+.column {
+    width: 500px; 
+    margin: 20px; 
+    padding: 30px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    border-radius: 28px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+  
+.column2 {
+    width: 500px; 
+    margin: 20px; 
+    padding: 30px; 
+    border: 1px solid #ccc; 
+    background-color: #4141BF;
+    color: white; 
+    border-radius: 28px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.column2 .h22 {
+    color:white;
+}
+  
+.column h2,
+.column p,
+.column button,
+.column2 h2,
+.column2 p,
+.column2 button {
+    margin-bottom: 20px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  
+.btn-primary1 {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    background-color: #4141BF;
+    color: white;
+    border-radius: 40px;
+    transition-property: all;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+  
+.btn-primary2 {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    background-color: white;
+    color: #4141BF;
+    border-radius: 40px;
+    transition-property: all;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+  
